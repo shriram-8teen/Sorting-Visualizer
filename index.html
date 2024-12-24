@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div id="controls">
+        <button class="button" onclick="generateRandomArray()">Generate Random Numbers</button>
+        <select id="algorithm">
+            <option value="bubbleSort">Bubble Sort</option>
+            <option value="selectionSort">Selection Sort</option>
+            <option value="quickSort">Quick Sort</option>
+            <option value="mergeSort">Merge Sort</option>
+            <option value="insertionSort">Insertion Sort</option>
+        </select>
+        <button class="button" onclick="startAlgorithm()">Sort</button>
+    </div>
+    <div id="bars"></div>
+    <script src="script.js"></script>
+</body>
+</html>
